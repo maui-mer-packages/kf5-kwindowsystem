@@ -1,5 +1,5 @@
-Name         : kf5-kwindowsystem
-Version      : 5.0.0
+Name         : kwindowsystem
+Version      : 5.1.0
 Release      : 1
 Group        : System/Base
 License      : GPLv2+
@@ -61,5 +61,5 @@ SubPackages:
           - "%{_kf5_includedir}/kwindowsystem_version.h"
           - "%{_kf5_includedir}/KWindowSystem"
           - "%{_kf5_libdir}/libKF5WindowSystem.so"
-          - "%{_kf5_libdir}/cmake/KF5WindowSystem"
-          - "%{_datadir}/qt5/mkspecs/modules/qt_KWindowSystem.pri"
+          - "%{_kf5_cmakedir}/KF5WindowSystem"
+          - "%{_kf5_mkspecsdir}/qt_KWindowSystem.pri"
