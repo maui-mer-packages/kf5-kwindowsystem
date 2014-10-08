@@ -8,7 +8,6 @@ Description  : |
   KDE Frameworks tier 1 integration module that provides classes for managing and
   working with windows.
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
