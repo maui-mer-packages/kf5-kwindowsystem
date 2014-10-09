@@ -24,6 +24,7 @@ Builder      : none
 PkgBR:
     - kf5-rpm-macros
     - extra-cmake-modules
+    - qt5-qttools-linguist
 PkgConfigBR:
     - Qt5Core
     - Qt5DBus

@@ -34,6 +34,7 @@ BuildRequires:  pkgconfig(xcb-keysyms)
 BuildRequires:  pkgconfig(xrender)
 BuildRequires:  kf5-rpm-macros
 BuildRequires:  extra-cmake-modules
+BuildRequires:  qt5-qttools-linguist
 
 %description
 KDE Frameworks tier 1 integration module that provides classes for managing and
