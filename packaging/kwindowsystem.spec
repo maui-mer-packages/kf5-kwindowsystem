@@ -76,7 +76,9 @@ rm -rf %{buildroot}
 # >> install post
 # << install post
 
-%files
+%find_lang kwindowsystem5_qt --with-qt --all-name || :
+
+%files -f kwindowsystem5_qt.lang
 %defattr(-,root,root,-)
 %doc COPYING.LIB README.md
 %{_kf5_libdir}/libKF5WindowSystem.so.*
